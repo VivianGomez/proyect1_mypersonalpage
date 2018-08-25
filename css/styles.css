@@ -1,5 +1,13 @@
 
+/** HEADER **/
 #header-site{
-
-  background: url(https://github.com/VivianGomez/vivianpage/blob/master/images/header.png);
+    background:  url('/images/header.png');
+    background-size: 100%  auto;
+   background-repeat: no-repeat;
+   height: 400px;
 }
+}
+
+
+
+ 
