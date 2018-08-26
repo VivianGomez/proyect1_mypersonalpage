@@ -6,35 +6,273 @@
 
   <title>Vivian Gómez</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
   <!-- My stylesheet !-->
-  <link rel="stylesheet" href="/css/styles.css"
+  <link rel="stylesheet" href="/css/styles.css">
 
 </head>
 <body>
-    <header>
-      <nav id="header-site" class="navbar navbar-default">
-        <div class="container">
-          <span>
+
+  <header id="homeR">
+    <div id="header-site" class="container-fluid">
+     <img src="images/me.jpg" id="mifoto" class="img-fluid" alt="Mi imagen">
+     <h1 class="myname">Vivian Gómez Cubillos</h1>
+     <center>
+       <h6 id="transbox" class="text-options">Systems and Computing Engineer</h6>
+     </center>
+     <br>
+   </div>
+ </div>
+</header>
+
+<br>
+<div class="container-fluid"> <!-- Menu container -->
+  <div class="row">
+
+   <div class="col-md-2 col-sm-2 col-xs-2 opt" alt="home">
+     <a href="#homeR">
+       <span id="home"></span>
+     </a>
+     <h6 class="text-options">Home</h6>
+   </div>
+
+   <div class="col-md-2 col-sm-2 col-xs-2" alt="About">
+     <a href="#aboutR">
+       <span id="about" ></span>
+     </a>
+     <h6 class="text-options">About</h6>
+   </div>
+
+   <div class="col-md-2 col-sm-2 col-xs-2" alt="Experience">
+     <a href="#experienceR">
+       <span id="experience"></span>
+     </a>
+     <h6 class="text-options">Experience</h6>
+   </div>
+
+   <div class="col-md-2 col-sm-2 col-xs-2" alt="Skills">
+     <a href="#skillsR">
+       <span id="skills"></span>
+     </a>
+     <h6 class="text-options">Skills</h6>
+   </div>
+
+   <div class="col-md-2 col-sm-2 col-xs-2" alt="Projects">
+     <a href="#projectsR">
+       <span id="projects" ></span>
+     </a>
+     <h6 class="text-options">Projects</h6>
+   </div>
+   
+   <div class="col-md-2 col-sm-2 col-xs-2">
+     <a href="#contactR" alt="contact">
+       <span id="contact"></span>
+     </a>
+     <h6 class="text-options">Contact</h6>
+   </div>
+ </div>
+</div><!-- End menu container -->
+
+
+<section class="menuSections">
+ <div id="aboutR" class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <hr class="style2">
+      <h2 class="subtitles">ABOUT ME</h2>
+      <hr class="style2">
+      <div  class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6"> <!-- Pictures about me - Carousel  -->
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/about/first.PNG" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/about/family.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/about/friends.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/about/bf.jpg" alt="Fourth slide">
+              </div>
+            </div>
+          </div>
+        </div><!-- End carousel  -->
+        <div class="col-xs-12 col-sm-12 col-md-6"><!-- description about me  -->
+          <h6 class="general-text">Hi! I'm Vivian Gomez, an student of System and Computing Engineering at Universidad de los Andes. Additionally, I study an specialization in Visual Computing, which is one of my favorites fields in my major.</h6> 
+          <br>
+          <h6 class="general-text">I am a creative person, leader, well work in teams and I ever want to learn all that I can. Currently,  I'm very interested in web development, data visualization, video games development and the creation of software to solution problems and help the people.</h6>
         </div>
-    </nav>
-    </header>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+<div id="experienceR" class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <hr class="style2">
+     <h2 class="subtitles">EXPERIENCE</h2>
+     <hr class="style2">
+     <br>
+     <div class="row">
+      <div class="col-sm-12 col-xs-12 col-md-4">
+        <img src="images/universidad-de-los-andes.png" class="img-fluid">
+      </div>
+      <div class="col-sm-12 col-xs-12 col-md-8">
+        <h3>ALGORITHMS AND OBJECT ORIENTED PROGRAMMING</h3>
+        <h5>Undergraduate Teaching Assistant</h5>
+        <h6>My job consist in help the students with their doubts and questions about the programming activities, during the laboratories. 
+        Additionally, I have to grade the exams and projects, and I indicates them their errors and the correct solutions.</h6>
+      </div>
+    </div>
+    <hr class="style3">
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 col-md-7">
+        <h3>SOFTWARE DEVELOPMENT IN TEAMS</h3>
+        <h5>Leader of team, and leader of design</h5>
+        <h6 class="just">My job was organize a weekly chronogram of tasks, distribute responsibilities, and help to my colleagues in their leaderships. Also, I was leading the activities of engineering design and visual design of our project.</h6>
+        <h6 class="just">For that purpose, we use tools like Github, Teamwork and Slack.</h6>
+        <h6 class="just">As a result, our project was the best of the semester and an example to the next semester teams.</h6>
+      </div>
+      <div class="col-sm-12 col-xs-12 col-md-5">
+        <img src="images/isis.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
+<div id="skillsR" class="container">
+  <div class="row">
+   <div class="col-lg-12">
+     <hr class="style2">
+     <h2 class="subtitles">SKILLS</h2>
+     <hr class="style2">
+   </div> 
+ </div>
+ <div class="row">
+   <div class="col-sm-4 col-xs-4 col-sm-4">
+     <img src="images/skills/java.png" class="img-fluid skills-pictures">
+   </div>
+   <div class="col-sm-4 col-xs-4 col-sm-4">
+     <img src="images/skills/sql.png" class="img-fluid skills-pictures">
+   </div>
+   <div class="col-sm-4 col-xs-4 col-sm-4">
+     <img src="images/skills/matlab.png" class="img-fluid skills-pictures">
+   </div>
+ </div>
+ <hr class="style3">
+ <div class="row">
+   <div class="col-sm-4 col-xs-4 col-sm-4">
+     <img src="images/skills/html.png" class="img-fluid skills-pictures">
+   </div>
+   <div class="col-sm-4 col-xs-4 col-sm-4">
+     <img src="images/skills/css.png" class="img-fluid skills-pictures">
+   </div>
+   <div class="col-sm-4 col-xs-4 col-sm-4">
+     <img src="images/skills/js.png" class="img-fluid skills-pictures">
+   </div> 
+ </div>
+ <hr class="style3">
+ <div class="row">
+   <div class="col-sm-4 col-xs-4 col-sm-4">
+     <img src="images/skills/photoshop.png" class="img-fluid skills-pictures">
+   </div>
+   <div class="col-sm-4 col-xs-4 col-sm-4">
+     <img src="images/skills/CorelPainterEssentials.png" class="img-fluid skills-pictures">
+   </div>
+   <div class="col-sm-4 col-xs-4 col-sm-4">
+     <img src="images/skills/github.png" class="img-fluid skills-pictures">
+   </div> 
+ </div>
+</div>
 
-     <div class="container">
+<div id="projectsR" class="container"><!-- start projects !-->
+  <div class="row">
+   <div class="col-lg-12">
+     <hr class="style2">
+     <h2 class="subtitles">PROJECTS</h2>
+     <hr class="style2">
+   </div> 
+ </div>
+ <div class="container container-proj">
+   <div class="row">
+     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <img src="images/projects/foohealli.png" class="image-fluid projects-pictures">
+    </div>
 
-       <h1 id="title-name">Vivian Gómez</h1>
-     </div>
-     <!-- Icons credits!-->
-     <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <img src="images/projects/laUnion.png" class="image-fluid projects-pictures">
+    </div>
 
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <img src="images/projects/appdogtame.png" class="image-fluid projects-pictures">
+    </div>
+  </div>
+</div>
+</div>
 
-  
-   <!--Bootstrapt JavaScript !--> 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<footer id="footer-backg"> <!-- start footer !-->
+  <!-- Icons credits!-->
+  <div id="contactR" class="container-fluid">
+    <div class="row">
+     <div class="col-lg-12">
+       <h2 class="subtitles">CONTACT</h2>
+       <hr class="style2">
+     </div> 
+     <br>
+   </div>
+   <div class="row">
+     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+       <a href="https://www.facebook.com/vivi.gomez.1610">
+        <img src="images/facebook-button.png" class="image-fluid contact-pictures">
+      </a>
+      <h6 style="text-align: center;">Vivian Gomez Cubillos</h6>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <a href="https://github.com/VivianGomez">
+       <img src="images/github-button.png" class="image-fluid contact-pictures" >
+     </a>
+     <h6 style="text-align: center;">VivianGomez</h6>
+   </div>
+   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+     <a href="https://twitter.com/Vivian02920026">
+      <img src="images/twitter-button.png" class="image-fluid contact-pictures" >
+    </a>
+    <h6 style="text-align: center;">@Vivian02920026</h6>
+  </div>
+</div>
+</div>
+</div>
+<div class="container">
+  <center>
+    Icons made by 
+    <a href="http://www.freepik.com" title="Freepik">Freepik</a> from 
+    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by 
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+  </center>
+  <br>
+</div>
+</footer> <!-- end footer !-->
+
+<!--Bootstrapt JavaScript !--> 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/global.js" type="text/javascript"></script>
+
 
 </body>
 </html>
