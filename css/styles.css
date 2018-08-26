@@ -1,7 +1,7 @@
 
 
 #header-site{
-  background:  url('/images/header2.png');
+  background:  url('images/header2.png');
   background-size: 100%  auto;
   background-repeat: no-repeat;
 }
@@ -30,7 +30,7 @@
 #home  {
   height: 100px;
   width: 100px;
-  background: #b5deea url('/images/options/home.png') no-repeat;
+  background: #b5deea url('images/options/home.png') no-repeat;
   background-size: 80%  auto;
   background-position:center;
   border-radius: 50%;
