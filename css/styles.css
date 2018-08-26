@@ -1,7 +1,7 @@
 
 
 #header-site{
-  background:  url('images/header2.png');
+  background:  url('/images/header2.png');
   background-size: 100%  auto;
   background-repeat: no-repeat;
 }
@@ -30,7 +30,7 @@
 #home  {
   height: 100px;
   width: 100px;
-  background: #b5deea url('images/options/home.png') no-repeat;
+  background: #b5deea url('/images/options/home.png') no-repeat;
   background-size: 80%  auto;
   background-position:center;
   border-radius: 50%;
@@ -43,7 +43,7 @@
 #about {
   height: 100px;
   width: 100px;
-  background: #b5deea url('images/options/information.png') no-repeat;
+  background: #b5deea url('/images/options/information.png') no-repeat;
   background-size: 80%  auto;
   background-position:center;
   border-radius: 50%;
@@ -56,7 +56,7 @@
 #projects {
   height: 100px;
   width: 100px;
-  background: #b5deea url('images/options/projects.png') no-repeat;
+  background: #b5deea url('/images/options/projects.png') no-repeat;
   background-size: 80%  auto;
   background-position:center;
   border-radius: 50%;
@@ -69,7 +69,7 @@
 #skills {
   height: 100px;
   width: 100px;
-  background: #b5deea url('images/options/skills.png') no-repeat;
+  background: #b5deea url('/images/options/skills.png') no-repeat;
   background-size: 80%  auto;
   background-position:center;
   border-radius: 50%;
@@ -82,7 +82,7 @@
 #experience {
   height: 100px;
   width: 100px;
-  background: #b5deea url('images/options/experience.png') no-repeat;
+  background: #b5deea url('/images/options/experience.png') no-repeat;
   background-size: 80%  auto;
   background-position:center;  
   border-radius: 50%;
@@ -95,7 +95,7 @@
 #contact {
   height: 100px;
   width: 100px;
-  background: #b5deea url('images/options/contact.png') no-repeat;
+  background: #b5deea url('/images/options/contact.png') no-repeat;
   background-size: 80%  auto;
   background-position:center;
   border-radius: 50%;
@@ -188,7 +188,7 @@ hr.style3 {
 
 
 #footer-backg{
-  background:  url('images/foot.png');
+  background:  url('/images/foot.png');
   background-size: 100%  auto;
   background-repeat: no-repeat;
 }
