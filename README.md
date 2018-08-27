@@ -1,10 +1,10 @@
-# vivianpage
+# mypersonalpage
 Mi página web!
 
-##Objetivo
+## Objetivo
 El objetivo de este proyecto es aplicar los conocimiento y habilidades desarrolladas en el curso de desarrollo web. Específicamente las relacionadas con el aprendizaje de tecnologías como CSS,HTML,Bootstrap y un poco de JavaScript.
 
-##Cómo se corre
+## Cómo se corre
 Para correr el proyecto desde un computador e ir editando su contenido, es necesario clonar este repositorio y ejecutar, ubicándose en la carpeta descargada, el comando _http-server_ de npm en la consola de comandos y opcionalmente el comando _reload-b_
 *Nota:* Para esta opcion es necesario tener instalado _npm_, las instrucciones _http-server_  y  _reload-b_.
 
