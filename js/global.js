@@ -6,5 +6,3 @@ $(document).ready(function() {
   });
 });
 
-  /* This code was inspired by https://code.i-harness.com/es/q/75c297 */
-
