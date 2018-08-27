@@ -11,3 +11,6 @@ $(document).ready(function() {
     return false;
   });
 });
+
+  /* This code was taked of https://code.i-harness.com/es/q/75c297 */
+
