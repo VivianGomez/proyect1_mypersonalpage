@@ -1,9 +1,14 @@
 
 
 #header-site{
-  background:  url('../images/header2.png');
+  background:  url('../images/fondoHeader.png');
   background-size: 100%  auto;
   background-repeat: no-repeat;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 
